@@ -23,7 +23,7 @@ def submit_form():
     address_label = Label(resultPopup, text=f"Address: {address}", font="Times", bg="pink")
     address_label.pack()
     
-    
+
 label = tk.Label(root, text="PERSONAL INFORMATION", font="Times 20", bg="pink").grid(row=0, column=3)
 
 name = tk.Label(root, text="Name", font="Courier", bg="pink")
